@@ -1,0 +1,19 @@
+ Nombre Laura Valentina Garzon Leon
+# Grupo 213022_685
+# Fundamentos de programacion
+# Codigo fuente Autoria porpia
+
+# Datos (constantes en gramos)
+PESO_PAYASO = 112
+PESO_MUNECA = 75
+
+# Entrada de datos
+cantidad_payasos = int(input("Ingrese la cantidad de payasos de tela: "))
+cantidad_munecas = int(input("Ingrese la cantidad de muñecas clásicas: "))
+
+# Proceso
+peso_total = (cantidad_payasos * PESO_PAYASO) + (cantidad_munecas * PESO_MUNECA)
+
+# Salida
+print("\n--- Resultado del envío ---")
+print(f"El peso total del pedido es: {peso_total} gramos.")
